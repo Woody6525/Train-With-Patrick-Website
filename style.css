@@ -1,0 +1,36 @@
+h2{
+  color: #fff;
+  font-family: "EB Garamond";
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+/* Navbar */
+
+.navbar{
+  padding: 10px 3%;
+  font-size: 1.25rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+/* Landing page */
+
+.darkSection{
+  background-color: #000000;
+}
+
+.introPara{
+  margin: 50px 0 50px 0;
+  color: white;
+}
+.headerText{
+  padding: 5% 10%;
+}
+
+.landingPic{
+  max-width: 80%;
+  padding: 5% 0;
+  box-shadow: 0 0 2px rgba(34,34,34,0.6);
+}
