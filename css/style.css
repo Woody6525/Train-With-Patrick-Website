@@ -1,8 +1,7 @@
 h2{
   color: #fff;
   font-family: "EB Garamond";
-  font-weight: 700;
-  font-size: 3.5rem;
+
 }
 
 /* Navbar */
@@ -15,22 +14,66 @@ h2{
 .navbar-brand{
   font-size: 2rem;
 }
-/* Landing page */
 
 .darkSection{
   background-color: #000000;
 }
 
-.introPara{
-  margin: 50px 0 50px 0;
-  color: white;
+.lightSection{
+  background-color: #fff;
 }
-.headerText{
+
+/* Landing page */
+
+.introPara{
+  margin: 10% 0;
+  color: white;
+  line-height: 1.5;
+}
+
+.headerTextDiv{
   padding: 5% 10%;
+}
+
+.headerText{
+  font-weight: 700;
+  font-size: 3.5rem;
 }
 
 .landingPic{
   max-width: 80%;
   padding: 5% 0;
-  box-shadow: 0 0 2px rgba(34,34,34,0.6);
+  margin-right: 10%;
+}
+
+/* media query to make the website responsive for smartphone screens */
+@media (max-width: 600px){
+
+.headerText{
+  font-size: 2rem;
+}
+
+.landingPic{
+  max-width: 100%;
+  padding: 5%;
+}
+
+}
+
+/* Services section formatting */
+
+.serviceTextBox{
+  padding: 5% 5% 5% 10%;
+  text-align: center;
+
+}
+
+.serviceDesc{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 50px;
+}
+
+.servicePic{
+  max-width: 50%;
 }
