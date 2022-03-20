@@ -65,6 +65,7 @@ h2{
 .serviceTextBox{
   padding: 5% 5% 5% 10%;
   text-align: center;
+  max-height: 10%;
 
 }
 
@@ -76,4 +77,13 @@ h2{
 
 .servicePic{
   max-width: 50%;
+  position: relative;
+}
+
+.pic1{
+  opacity: 0;
+}
+
+.desc1{
+  opacity: 0;
 }
